@@ -46,7 +46,7 @@ void main() {
   // Menampilkan hasil
   print(sentence);
 
-  //Soal No.2 Mengurai kalimat (Akses karakter dalam string),
+  //Soal No.3 Mengurai kalimat (Akses karakter dalam string),
   var sentences = "I am going to be Flutter Developer";
 
   var exampleFirstWord = sentences[0];
