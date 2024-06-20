@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  // Soal 1: Uraikan dengan bahasa teman teman di commant di visual studio code nya:  <=======================================
+  // Soal 1: Uraikan dengan bahasa teman teman di commant di visual studio code nya:  <======================================= KE.1
   int angkaInt1 = 10;
   int angkaInt2 = -3;
   int angkaInt3 = 0;
@@ -29,7 +29,7 @@ void main() {
   print('Angka sebagai teks: $angkaSebagaiTeks');
   print('String kosong: "$stringKosong"');
 
-// Soal No. 2 (Membuat kalimat), <=======================================
+// Soal No. 2 (Membuat kalimat), <======================================= KE. 2
 // Terdapat kumpulan variable dengan data string sebagai berikut
 // Variabel-variabel dengan data string
   var word = 'dart';
@@ -46,7 +46,7 @@ void main() {
   // Menampilkan hasil
   print(sentence);
 
-  //Soal No.3 Mengurai kalimat (Akses karakter dalam string),  <=======================================
+  //Soal No.3 Mengurai kalimat (Akses karakter dalam string),  <======================================= KE. 3
   var sentences = "I am going to be Flutter Developer";
 
   var exampleFirstWord = sentences[0];
@@ -65,7 +65,7 @@ void main() {
   print('Sixth Word: ' + sixthWord);
   print('Seventh Word: ' + seventhWord);
 
-  // SOALKE-4  <=======================================
+  // SOALKE-4  <======================================= KE. 4
   // Dengan menggunakan I/O pada dart buatlah input dinamis yang akan menginput nama depan dan belakang dan jika di enter
   // akan menggabungkan nama depan dan belakang
 
@@ -85,7 +85,7 @@ void main() {
     print('Input tidak valid.');
   }
 
-  // SOAL KE-5  <=======================================
+  // SOAL KE-5  <======================================= ke. 5
   // Dengan menggunakan operator operasikan variable berikut ini menjadi bentuk operasi perkalian, penjumlahan, pengurangan dan pembagian a = 5,  b = 10 jadi misal a * b = 5 * 10 = 50 dst.
   int a = 5;
   int b = 10;
