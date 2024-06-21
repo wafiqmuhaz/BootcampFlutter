@@ -1,6 +1,6 @@
 import 'dart:io';
 
-//Jawaban Soal 1 Bagian A <===============================
+//Jawaban Soal 1 Bagian A
 
 // ignore_for_file: dead_code
 
@@ -17,7 +17,7 @@ void main() {
   String? inputNilai = stdin.readLineSync();
   int nilai = int.parse(inputNilai!);
 
-  //Jawaban Soal 1 Bagian B <===============================
+  //Jawaban Soal 1 Bagian B
 
   if (nilai >= 80) {
     print('A: Sangat Baik');
