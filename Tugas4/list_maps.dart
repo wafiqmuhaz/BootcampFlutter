@@ -31,7 +31,7 @@ void soalDua() {
   print('Setelah menghapus buah terakhir: $fruits');
 }
 
-void soalTiga() {  
+void soalTiga() {
   print("\n\n========= Soal 3 =========\n");
 
   List<int> list1 = [1, 2, 3];
@@ -50,7 +50,9 @@ void soalEmpat() {
     'email': 'wafiqmuhaz@gmail.com',
     'phoneNumber': '08139313'
   };
+  print(dataDiri);
 
+  print("\n\n========= Soal 5 =========\n");
   print('Data Diri:');
   dataDiri.forEach((key, value) {
     print('$key: $value');
