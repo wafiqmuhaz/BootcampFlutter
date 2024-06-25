@@ -37,8 +37,9 @@ void soalTiga() {
   List<int> list1 = [1, 2, 3];
   List<int> list2 = [4, 5, 6];
 
-  List<int> combinedList = list1 + list2;
-  print('List gabungan: $combinedList');
+  List<int> combinedList = list1 + list2; //list1.addAll(list2);
+
+  print('List gabungan: $list1');
 }
 
 void soalEmpat() {
