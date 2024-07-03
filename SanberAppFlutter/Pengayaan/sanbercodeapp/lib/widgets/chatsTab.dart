@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../screen/chatScreen.dart';
+import '../screen/home/chatScreen.dart';
 
 class ChatsTab extends StatelessWidget {
   final List<String> names = [

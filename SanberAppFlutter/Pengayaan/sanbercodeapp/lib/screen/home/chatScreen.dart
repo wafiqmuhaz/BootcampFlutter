@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/chatBubble.dart';
+import '../../widgets/chatBubble.dart';
 
 class ChatScreen extends StatelessWidget {
   final String name;

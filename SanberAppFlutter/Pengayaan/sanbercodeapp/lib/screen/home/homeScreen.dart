@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/callsTab.dart';
-import '../widgets/chatsTab.dart';
-import '../widgets/statusTab.dart';
+import '../../widgets/callsTab.dart';
+import '../../widgets/chatsTab.dart';
+import '../../widgets/statusTab.dart';
 import 'chatScreen.dart';
 
 class HomeScreen extends StatelessWidget {
