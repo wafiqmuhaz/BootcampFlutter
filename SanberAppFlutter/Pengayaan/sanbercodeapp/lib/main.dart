@@ -138,7 +138,7 @@ class _TeleScreenState extends State<TeleScreen> {
             primaryColor: const Color.fromARGB(255, 231, 231, 231),
             textTheme: Theme.of(context)
                 .textTheme
-                .copyWith(caption: const TextStyle(color: Colors.yellow))),
+                .copyWith(bodySmall: const TextStyle(color: Colors.yellow))),
         child: BottomNavigationBar(
           elevation: 2,
           fixedColor: Colors.black,
