@@ -12,7 +12,6 @@ class UserRepository {
 
     if (response.statusCode == 200) {
       final List result = jsonDecode(response.body)['data'];
-      print(result);
       return result.map((e) => UserModel.fromJson(e)).toList();
     } else {
       throw Exception(response.reasonPhrase);

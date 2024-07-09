@@ -57,11 +57,6 @@ class HomePage extends StatelessWidget {
                         Navigator.pushNamed(
                           context,
                           RouteNames.detailScreen,
-                          // arguments: {
-                          //   'post': post,
-                          //   'idUsers': idUsers,
-                          //   'colorUsers': colorUsers,
-                          // },
                           arguments: [
                             post,
                             idUsers,
