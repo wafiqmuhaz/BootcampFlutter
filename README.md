@@ -105,7 +105,7 @@ Menggunakan dan Implementasi Google Maps pada aplikasi
 - pengayaanapps20 =
 Menggunakan socket pada aplikasi
 ### Pada Folder TugasMingguan
-- Tugas1(**) =
+- Tugas1(*Jumat 21 Juni 2024*) =
 Menggunakan Looping For dan While serta mengimplementasikan juga dengan Function
 - Tugas2(*Selasa 25 juni 2024*) =
 Menggunakan List dan Map beserta macam-macamnya seperti range dan list multidimensi
