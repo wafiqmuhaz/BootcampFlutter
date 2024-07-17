@@ -49,6 +49,7 @@ BootCampFlutter/
 │         ├── pengayaanapps18
 │         ├── pengayaanapps19
 │         ├── pengayaanapps20
+│         ├── pengayaanapps21
 ├── TugasMingguan/
 │         ├── Tugas-1
 │         ├── Tugas-2
@@ -104,6 +105,10 @@ Local Notifikasi
 Menggunakan dan Implementasi Google Maps pada aplikasi
 - pengayaanapps20 =
 Menggunakan socket pada aplikasi
+- pengayaanapps21 =
+Mengimplementasikan Integrated Test pada aplikasi
+
+
 ### Pada Folder TugasMingguan
 - Tugas1(*Jumat 21 Juni 2024*) =
 Menggunakan Looping For dan While serta mengimplementasikan juga dengan Function
