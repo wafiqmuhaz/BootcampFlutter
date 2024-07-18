@@ -62,6 +62,7 @@ BootCampFlutter/
 │         ├── Tugas-9
 │         ├── Tugas-10
 │         ├── Tugas-11
+│         ├── Tugas-12
 Readme.md
 ```
 
@@ -132,6 +133,8 @@ advance bloc with routing dengan implementasi drawer navbar bloc, bottom navbar 
 Membuat aplikasi dengan mengambil api berita(link ada dibawah). dengan menggunakan state management Cubit ataupun Bloc
 - Tugas11(*Selasa 16 Juli 2024*) =
 Membuat 2 halaman dengan mengimplementasikan local notifikasi dan juga maps
+- Tugas12(*Rabu 17 Juli 2024*) =
+Membuat 2 Unit Testing, yaitu, Test widget untuk perpindahan halaman dan unit test untuk memastikan navigasi berjalan lancar
 
 ##
 
