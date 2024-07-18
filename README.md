@@ -50,6 +50,7 @@ BootCampFlutter/
 │         ├── pengayaanapps19
 │         ├── pengayaanapps20
 │         ├── pengayaanapps21
+│         ├── pengayaanapps22
 ├── TugasMingguan/
 │         ├── Tugas-1
 │         ├── Tugas-2
@@ -63,6 +64,7 @@ BootCampFlutter/
 │         ├── Tugas-10
 │         ├── Tugas-11
 │         ├── Tugas-12
+│         ├── Tugas-13 - working on at 13.00
 Readme.md
 ```
 
@@ -108,6 +110,8 @@ Menggunakan dan Implementasi Google Maps pada aplikasi
 Menggunakan socket pada aplikasi
 - pengayaanapps21 =
 Mengimplementasikan Integrated Test pada aplikasi
+- pengayaanapps22 =
+Mengimplementasikan Integrated Test level Advance pada aplikasi
 
 
 ### Pada Folder TugasMingguan
@@ -135,6 +139,8 @@ Membuat aplikasi dengan mengambil api berita(link ada dibawah). dengan menggunak
 Membuat 2 halaman dengan mengimplementasikan local notifikasi dan juga maps
 - Tugas12(*Rabu 17 Juli 2024*) =
 Membuat 2 Unit Testing, yaitu, Test widget untuk perpindahan halaman dan unit test untuk memastikan navigasi berjalan lancar
+- Tugas13(*Kamis 18 Juli 2024*) =
+Unit testing lanjutan pada aplikasi
 
 ##
 
@@ -171,7 +177,7 @@ Membuat 2 Unit Testing, yaitu, Test widget untuk perpindahan halaman dan unit te
 
 ## Kontribusi:
 
-Kami terbuka untuk menerima kontribusi dari komunitas developer untuk meningkatkan kualitas aplikasi ini. Silakan hubungi kami melalui ![Website Badge](https://img.shields.io/badge/-wafiqmuhaz-blue?style=flat-square&logo=Website&logoColor=white&link=mailto:wafiqmuhaz@gmail.com)/![Issues Badge](https://img.shields.io/badge/-issues-blue?style=flat-square&logo=Website&logoColor=white&link=https://github.com/wafiqmuhaz/BootcampFlutter/issues/new/choose) Link ke issue Repository jika Anda memiliki saran atau ingin berkontribusi.
+Kami terbuka untuk menerima kontribusi dari komunitas developer untuk meningkatkan kualitas aplikasi ini. Silakan hubungi kami melalui ![Website Badge](https://img.shields.io/badge/-wafiqmuhaz-blue?style=flat-square&logo=Website&logoColor=white&link=mailto:wafiqmuhaz@gmail.com) / ![Issues Badge](https://img.shields.io/badge/-issues-blue?style=flat-square&logo=Website&logoColor=white&link=https://github.com/wafiqmuhaz/BootcampFlutter/issues/new/choose) Link ke issue Repository jika Anda memiliki saran atau ingin berkontribusi.
 
 ## Terima Kasih:**
 
