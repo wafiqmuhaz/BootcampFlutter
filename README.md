@@ -50,6 +50,7 @@ BootCampFlutter/
 │         ├── pengayaanapps19
 │         ├── pengayaanapps20
 │         ├── pengayaanapps21
+│         ├── pengayaanapps22
 ├── TugasMingguan/
 │         ├── Tugas-1
 │         ├── Tugas-2
@@ -108,6 +109,8 @@ Menggunakan dan Implementasi Google Maps pada aplikasi
 Menggunakan socket pada aplikasi
 - pengayaanapps21 =
 Mengimplementasikan Integrated Test pada aplikasi
+- pengayaanapps22 =
+Mengimplementasikan Integrated Test level Advance pada aplikasi
 
 
 ### Pada Folder TugasMingguan
@@ -135,6 +138,8 @@ Membuat aplikasi dengan mengambil api berita(link ada dibawah). dengan menggunak
 Membuat 2 halaman dengan mengimplementasikan local notifikasi dan juga maps
 - Tugas12(*Rabu 17 Juli 2024*) =
 Membuat 2 Unit Testing, yaitu, Test widget untuk perpindahan halaman dan unit test untuk memastikan navigasi berjalan lancar
+- Tugas13(*Kamis 18 Juli 2024*) =
+Unit testing lanjutan pada aplikasi
 
 ##
 
