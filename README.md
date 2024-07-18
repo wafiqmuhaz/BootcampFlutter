@@ -64,6 +64,7 @@ BootCampFlutter/
 │         ├── Tugas-10
 │         ├── Tugas-11
 │         ├── Tugas-12
+│         ├── Tugas-13 - working on at 13.00
 Readme.md
 ```
 
@@ -176,7 +177,7 @@ Unit testing lanjutan pada aplikasi
 
 ## Kontribusi:
 
-Kami terbuka untuk menerima kontribusi dari komunitas developer untuk meningkatkan kualitas aplikasi ini. Silakan hubungi kami melalui ![Website Badge](https://img.shields.io/badge/-wafiqmuhaz-blue?style=flat-square&logo=Website&logoColor=white&link=mailto:wafiqmuhaz@gmail.com)/![Issues Badge](https://img.shields.io/badge/-issues-blue?style=flat-square&logo=Website&logoColor=white&link=https://github.com/wafiqmuhaz/BootcampFlutter/issues/new/choose) Link ke issue Repository jika Anda memiliki saran atau ingin berkontribusi.
+Kami terbuka untuk menerima kontribusi dari komunitas developer untuk meningkatkan kualitas aplikasi ini. Silakan hubungi kami melalui ![Website Badge](https://img.shields.io/badge/-wafiqmuhaz-blue?style=flat-square&logo=Website&logoColor=white&link=mailto:wafiqmuhaz@gmail.com) / ![Issues Badge](https://img.shields.io/badge/-issues-blue?style=flat-square&logo=Website&logoColor=white&link=https://github.com/wafiqmuhaz/BootcampFlutter/issues/new/choose) Link ke issue Repository jika Anda memiliki saran atau ingin berkontribusi.
 
 ## Terima Kasih:**
 
