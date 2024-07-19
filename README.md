@@ -51,6 +51,7 @@ BootCampFlutter/
 │         ├── pengayaanapps20
 │         ├── pengayaanapps21
 │         ├── pengayaanapps22
+│         ├── pengayaanapps23
 ├── TugasMingguan/
 │         ├── Tugas-1
 │         ├── Tugas-2
@@ -65,6 +66,7 @@ BootCampFlutter/
 │         ├── Tugas-11
 │         ├── Tugas-12
 │         ├── Tugas-13
+│         ├── Tugas-14 ~ ONGOING
 Readme.md
 ```
 
@@ -112,6 +114,8 @@ Menggunakan socket pada aplikasi
 Mengimplementasikan Integrated Test pada aplikasi
 - pengayaanapps22 =
 Mengimplementasikan Integrated Test level Advance pada aplikasi
+- pengayaanapps23 =
+Mengimplementasikan camera pada aplikasi dan juga menscan barcode dengan barcode yang telah disediakan
 
 
 ### Pada Folder TugasMingguan
@@ -141,6 +145,8 @@ Membuat 2 halaman dengan mengimplementasikan local notifikasi dan juga maps
 Membuat 2 Unit Testing, yaitu, Test widget untuk perpindahan halaman dan unit test untuk memastikan navigasi berjalan lancar
 - Tugas13(*Kamis 18 Juli 2024*) =
 Unit testing lanjutan pada aplikasi
+- Tugas14(* Juli 2024*) =
+Ongoing
 
 ##
 
