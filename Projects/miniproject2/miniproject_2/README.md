@@ -290,16 +290,16 @@ test('fetchProducts returns a list of ProductModel', () async {
 
 ## screenshoot 1
 
-| Splash screen | Login screen | product screen | notif popup | Filter feature | Order Detail | 
+| Splash screen | Login screen | Product screen | Notif popup | Filter feature | Cart detail | 
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | 
-| ![Splash screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/1.png)   | ![Login screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/2.png)  | ![product screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/3.png)   | ![notif popup](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/4.png)  | ![Filter feature](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/5.png)   | ![Order Detail](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/11.png)  | 
+| ![Splash screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/1.png)   | ![Login screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/2.png)  | ![Product screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/3.png)   | ![Notif popup](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/4.png)  | ![Filter feature](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/5.png)   | ![Cart detail](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/11.png)  | 
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | 
 
 ## screenshot 2
 
-| detail produk | cart screen | profile screen | Unit testing | Testing result | 
+| Detail produk | Cart screen | Profile screen | Unit testing | Testing result | 
 | --------------- | --------------- | --------------- | --------------- | --------------- | 
-| ![detail produk](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/6.png)  | ![cart screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/7.png)   | ![profile screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/8.png)  | ![Unit testing](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/9.png)   | ![Testing result](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/10.png)  | 
+| ![Detail produk](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/6.png)  | ![Cart screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/7.png)   | ![Profile screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/8.png)  | ![Unit testing](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/9.png)   | ![Testing result](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/10.png)  | 
 | --------------- | --------------- | --------------- | --------------- |  --------------- | 
 
 ## System Architecture
@@ -338,11 +338,11 @@ API Documentation Endpoint cart   : [Endpoint](https://fakestoreapi.com/carts)
 
 ## UI/UX Design
 
-- Link Figma Design : [Figma]()
+- Link Figma Design : [Figma](https://wafiqmuhaz.netlify.app/)
 
 
 
 ## Deployment Link APK
 
 Download Link APK MiniProject1:<br>
-[MiniProject1 (Google Drive)]()
+[MiniProject1 (https://wafiqmuhaz.netlify.app/)]()
