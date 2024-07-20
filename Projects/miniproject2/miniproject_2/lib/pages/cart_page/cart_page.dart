@@ -115,21 +115,16 @@ class _CartPageState extends State<CartPage> {
                 ),
                 onPressed: () async {
                   NotificationHelper.payload.value = "";
-
-                            Color randomColor = Color(
-                                    (math.Random().nextDouble() * 0xFFFFFF).toInt())
-                                .withOpacity(1.0);
-
-                            // Kirim Notifikasi
-                            await NotificationHelper.flutterLocalNotificationsPlugin
-                                .show(
-                              math.Random().nextInt(99),
-                              "Menampilkan notifikasi",
-                              "Tombol Checkout berhasil ditekan!",
-                              NotificationHelper.notificationDetails(randomColor),
-                              payload: jsonEncode({"data": "test"}),
-                            );
-
+                  Color randomColor =
+                      Color((math.Random().nextDouble() * 0xFFFFFF).toInt())
+                          .withOpacity(1.0);
+                  await NotificationHelper.flutterLocalNotificationsPlugin.show(
+                    math.Random().nextInt(99),
+                    "Menampilkan notifikasi",
+                    "Tombol Checkout berhasil ditekan!",
+                    NotificationHelper.notificationDetails(randomColor),
+                    payload: jsonEncode({"data": "test"}),
+                  );
                 },
                 child: const Text(
                   'Checkout',

@@ -68,11 +68,9 @@ class _ProductPageState extends State<ProductPage> {
                           onTap: () async {
                             // Reset Payload Value
                             NotificationHelper.payload.value = "";
-
                             Color randomColor = Color(
                                     (math.Random().nextDouble() * 0xFFFFFF).toInt())
                                 .withOpacity(1.0);
-
                             // Kirim Notifikasi
                             await NotificationHelper.flutterLocalNotificationsPlugin
                                 .show(
@@ -82,7 +80,6 @@ class _ProductPageState extends State<ProductPage> {
                               NotificationHelper.notificationDetails(randomColor),
                               payload: jsonEncode({"data": "test"}),
                             );
-
                             context.push(Uri(
                                     path: RouteNames.detailProduct,
                                     queryParameters: product.toMap())
