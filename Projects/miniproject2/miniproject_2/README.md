@@ -85,6 +85,7 @@ miniproject_1/
 │   ├── pages
 │   |     ├── cart_page
 │   |     |       ├── cart_screen.dart
+│   |     |       ├── cart_detail_screen.dart
 │   |     |       ├── listview_cart.dart
 │   |     ├── login_page
 │   |     |       ├── login_page.dart
@@ -289,17 +290,17 @@ test('fetchProducts returns a list of ProductModel', () async {
 
 ## screenshoot 1
 
-| Splash screen | Login screen | product screen | notif popup | Filter feature | 
-| --------------- | --------------- | --------------- | --------------- | --------------- | 
-| ![Splash screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/1.png)   | ![Login screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/2.png)  | ![product screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/3.png)   | ![notif popup](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/4.png)  | ![Filter feature](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/5.png)   | 
-| --------------- | --------------- | --------------- | --------------- | --------------- | 
+| Splash screen | Login screen | product screen | notif popup | Filter feature | Order Detail | 
+| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | 
+| ![Splash screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/1.png)   | ![Login screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/2.png)  | ![product screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/3.png)   | ![notif popup](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/4.png)  | ![Filter feature](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/5.png)   | ![Order Detail](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/11.png)  | 
+| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | 
 
 ## screenshot 2
 
-| detail produk | cart screen | profile screen | Unit testing | Testing result |
+| detail produk | cart screen | profile screen | Unit testing | Testing result | 
 | --------------- | --------------- | --------------- | --------------- | --------------- | 
 | ![detail produk](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/6.png)  | ![cart screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/7.png)   | ![profile screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/8.png)  | ![Unit testing](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/9.png)   | ![Testing result](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/10.png)  | 
-| --------------- | --------------- | --------------- | --------------- | 
+| --------------- | --------------- | --------------- | --------------- |  --------------- | 
 
 ## System Architecture
 |    ![SystemArchitecture](https://bloclibrary.dev/_astro/bloc.DJLDGT9c_1KXLNj.svg)     | 
