@@ -42,6 +42,11 @@ Aplikasi ini menggunakan manajemen state Bloc dengan struktur folder yang rapi u
 miniproject_1/
 ├── android/
 ├── ios/
+├── assets/
+│   ├── docs
+│         ├── 1,2,3,4,5,6,7,8,9,10.png // image for github docs
+│   ├── images
+│         ├── sanberlogo.png
 ├── lib/
 │   ├── bloc
 │         ├── cart_bloc
