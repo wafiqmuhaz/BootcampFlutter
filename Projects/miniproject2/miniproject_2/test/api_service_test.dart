@@ -10,6 +10,7 @@ import 'package:mockito/annotations.dart';
 @GenerateMocks([http.Client])
 void main() {
   group('API Service Test', () {
+    //TESTING API PROFILE
     test('fetchUser returns a User object', () async {
       final client = MockClient((request) async {
         return http.Response(
@@ -24,6 +25,7 @@ void main() {
       expect(user.email, 'test@example.com');
     });
 
+    //TESTING API CART
     test('fetchCart returns a CartModel object', () async {
       final client = MockClient((request) async {
         return http.Response(
@@ -38,6 +40,7 @@ void main() {
       expect(cart.userId, 1);
     });
 
+    //TESTING API PRODUCTS
     test('fetchProducts returns a list of ProductModel', () async {
       final client = MockClient((request) async {
         return http.Response(

@@ -10,19 +10,26 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('My E-commerce App'),
+        centerTitle: true,
+        elevation: 2,
+        backgroundColor: Colors.white,
+        title: const Text('Sanber Commerce', style: TextStyle(
+          color: Colors.black,
+        ),),
+        leading: IconButton(
+          icon: const Icon(
+            color: Colors.black,
+            Icons.shopping_cart,
+            size: 40,
+          ),
+          onPressed: () {
+            context.push(RouteNames.cartScreen);
+          },
+        ),
         actions: [
           IconButton(
             icon: const Icon(
-              Icons.shopping_basket,
-              size: 40,
-            ),
-            onPressed: () {
-              context.push(RouteNames.cartScreen);
-            },
-          ),
-          IconButton(
-            icon: const Icon(
+              color: Colors.black,
               Icons.person,
               size: 40,
             ),

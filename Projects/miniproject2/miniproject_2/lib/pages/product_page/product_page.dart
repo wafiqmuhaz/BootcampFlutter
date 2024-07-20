@@ -29,17 +29,38 @@ class _ProductPageState extends State<ProductPage> {
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
-            TextField(
-              decoration: const InputDecoration(
-                labelText: 'Search',
-                prefixIcon: Icon(Icons.search),
+            const Padding(
+              padding: EdgeInsets.only( left: 12.0, right: 12.0),
+              child: Text(
+                'Kami menyediakan seluruh hal yang menarik untuk anda ✌️',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 24,
+                  fontWeight: FontWeight.normal,
+                ),
               ),
+            ),
+            const SizedBox(height: 20),
+            TextField(
+              decoration: InputDecoration(
+                fillColor: Colors.grey[500],
+                filled: true,
+                hintText: 'Search',
+                hintStyle: TextStyle(color: Colors.black),
+                prefixIcon: Icon(Icons.search, color: Colors.black),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                  borderSide: BorderSide.none,
+                ),
+              ),
+              style: TextStyle(color: Colors.black),
               onChanged: (value) {
                 setState(() {
                   searchQuery = value.toLowerCase();
                 });
               },
             ),
+            const SizedBox(height: 20),
             Expanded(
               child: BlocBuilder<ProductBloc, ProductState>(
                 builder: (context, state) {
@@ -55,7 +76,8 @@ class _ProductPageState extends State<ProductPage> {
                     }).toList();
 
                     return GridView.builder(
-                      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
                         childAspectRatio: 2 / 3,
                         crossAxisSpacing: 10,
@@ -69,17 +91,21 @@ class _ProductPageState extends State<ProductPage> {
                             // Reset Payload Value
                             NotificationHelper.payload.value = "";
                             Color randomColor = Color(
-                                    (math.Random().nextDouble() * 0xFFFFFF).toInt())
+                                    (math.Random().nextDouble() * 0xFFFFFF)
+                                        .toInt())
                                 .withOpacity(1.0);
                             // Kirim Notifikasi
-                            await NotificationHelper.flutterLocalNotificationsPlugin
+                            await NotificationHelper
+                                .flutterLocalNotificationsPlugin
                                 .show(
                               math.Random().nextInt(99),
                               "Menampilkan notifikasi",
                               "Menuju ke detail item berhasil",
-                              NotificationHelper.notificationDetails(randomColor),
+                              NotificationHelper.notificationDetails(
+                                  randomColor),
                               payload: jsonEncode({"data": "test"}),
                             );
+
                             context.push(Uri(
                                     path: RouteNames.detailProduct,
                                     queryParameters: product.toMap())
@@ -108,7 +134,8 @@ class _ProductPageState extends State<ProductPage> {
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 8.0),
                                   child: Text(
                                     "\$${product.price}",
                                     style: const TextStyle(
@@ -120,9 +147,11 @@ class _ProductPageState extends State<ProductPage> {
                                 const SizedBox(height: 12),
                                 ElevatedButton(
                                   style: ButtonStyle(
-                                    backgroundColor: MaterialStateProperty.all<Color>(
+                                    backgroundColor:
+                                        MaterialStateProperty.all<Color>(
                                       Color(
-                                        (math.Random().nextDouble() * 0xFFFFFF).toInt(),
+                                        (math.Random().nextDouble() * 0xFFFFFF)
+                                            .toInt(),
                                       ).withOpacity(1.0),
                                     ),
                                   ),
@@ -131,16 +160,20 @@ class _ProductPageState extends State<ProductPage> {
                                     NotificationHelper.payload.value = "";
 
                                     Color randomColor = Color(
-                                            (math.Random().nextDouble() * 0xFFFFFF).toInt())
+                                            (math.Random().nextDouble() *
+                                                    0xFFFFFF)
+                                                .toInt())
                                         .withOpacity(1.0);
 
                                     // Kirim Notifikasi
-                                    await NotificationHelper.flutterLocalNotificationsPlugin
+                                    await NotificationHelper
+                                        .flutterLocalNotificationsPlugin
                                         .show(
                                       math.Random().nextInt(99),
                                       "Menampilkan Notifikasi",
                                       "Item berhasil dimasukkan ke keranjang | Dummy",
-                                      NotificationHelper.notificationDetails(randomColor),
+                                      NotificationHelper.notificationDetails(
+                                          randomColor),
                                       payload: jsonEncode({"data": "test"}),
                                     );
                                   },
