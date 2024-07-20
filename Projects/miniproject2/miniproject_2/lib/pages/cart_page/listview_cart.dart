@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:miniproject_1/model/cart_model.dart';
 import 'package:miniproject_1/model/product_model.dart';
 
+import '../product_page/product_detail_page.dart';
+
 class ListViewWidget extends StatelessWidget {
   final List<ProductModel> data;
   final double? iconSize;
@@ -57,7 +59,14 @@ class ListViewWidget extends StatelessWidget {
                   )
                 ],
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ProductDetailPage(product: item),
+                  ),
+                );
+              },
             ),
           ],
         );
@@ -94,4 +103,4 @@ class ListViewWidget extends StatelessWidget {
       );
 
   }
-  }
+}

@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp.router(
         debugShowCheckedModeBanner: false,
-        title: 'E-commerce App',
+        title: 'Sanber commerce',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

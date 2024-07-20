@@ -43,6 +43,10 @@ class AppRouter {
         name: RouteNames.cartScreen,
         path: RouteNames.cartScreen,
         builder: (context, state) => const CartPage()),
+    // GoRoute(
+    //     name: RouteNames.cartdetailScreen,
+    //     path: RouteNames.cartdetailScreen,
+    //     builder: (context, state) => const CartDetailPage()),
     GoRoute(
         name: RouteNames.userScreen,
         path: RouteNames.userScreen,

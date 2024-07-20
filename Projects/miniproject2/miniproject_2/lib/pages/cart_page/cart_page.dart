@@ -27,6 +27,7 @@ class CartPage extends StatefulWidget {
 
 class _CartPageState extends State<CartPage> {
   late Future<List<ProductModel>> futureProduct;
+
   @override
   void initState() {
     super.initState();
@@ -37,27 +38,8 @@ class _CartPageState extends State<CartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Row(
-          children: [
-            const Text('Cart'),
-            const SizedBox(
-              width: 156,
-            ),
-            const Text(
-              'Ubah',
-              style: TextStyle(color: Colors.black54),
-            ),
-            const SizedBox(
-              width: 8,
-            ),
-            IconButton(
-                onPressed: () => {},
-                icon: const Icon(
-                  Icons.chat_bubble,
-                  color: Colors.orange,
-                ))
-          ],
-        ),
+        centerTitle: true,
+        title: const Text('Cart'),
       ),
       body: BlocBuilder<CartBloc, CartState>(
         builder: (context, state) {
@@ -105,6 +87,7 @@ class _CartPageState extends State<CartPage> {
             ),
             const SizedBox(height: 16),
             Container(
+              height: 55,
               width: 360,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
@@ -142,7 +125,7 @@ class _CartPageState extends State<CartPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           contentProduct(cart.products),
-          SizedBox(
+          const SizedBox(
             height: 70,
           ),
           bottomContent()
@@ -175,3 +158,4 @@ class _CartPageState extends State<CartPage> {
     );
   }
 }
+

@@ -24,7 +24,6 @@ class ProductDetailPage extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.share),
             onPressed: () {
-              // Add share functionality here
             },
           ),
         ],
