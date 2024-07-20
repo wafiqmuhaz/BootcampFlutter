@@ -272,14 +272,19 @@ test('fetchProducts returns a list of ProductModel', () async {
     });
 ```
 
-## screenshoot
+## screenshoot 1
 
-| Home | detail produk | cart | profile | 
+| Splash screen | Login screen | product screen | notif popup | Filter feature | 
+| --------------- | --------------- | --------------- | --------------- | --------------- | 
+| ![Splash screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/1.png)   | ![Login screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/2.png)  | ![product screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/3.png)   | ![notif popup](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/4.png)  | ![Filter feature](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/5.png)   | 
+| --------------- | --------------- | --------------- | --------------- | --------------- | 
+
+## screenshot 2
+
+| detail produk | cart screen | profile screen | Unit testing | Testing result |
+| --------------- | --------------- | --------------- | --------------- | --------------- | 
+| ![detail produk](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/6.png)  | ![cart screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/7.png)   | ![profile screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/8.png)  | ![Unit testing](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/9.png)   | ![Testing result](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/10.png)  | 
 | --------------- | --------------- | --------------- | --------------- | 
-| ![home_app](https://github.com/wafiqmuhaz/miniproject_1/assets/56067805/71741ee6-4ba5-4d65-97cf-54c2d842e16c)   | ![detail produk](https://github.com/wafiqmuhaz/miniproject_1/assets/56067805/5c4497ce-27a3-4135-acef-1f6a608007a7)  | ![cart](https://github.com/wafiqmuhaz/miniproject_1/assets/56067805/6823f5ce-f05c-450f-845d-1bccc3c430a1)   | ![profile](https://github.com/wafiqmuhaz/miniproject_1/assets/56067805/91fa49ca-fd1f-4781-bba1-e82a5616c577)  |
-| --------------- | --------------- | --------------- | --------------- | 
-
-
 
 ## System Architecture
 |    ![SystemArchitecture](https://bloclibrary.dev/_astro/bloc.DJLDGT9c_1KXLNj.svg)     | 
