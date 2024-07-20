@@ -86,34 +86,36 @@ class _CartPageState extends State<CartPage> {
               ],
             ),
             const SizedBox(height: 16),
-            Container(
-              height: 55,
-              width: 360,
-              child: ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.orange,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12.0),
+            Row(
+              children: [
+                Expanded(
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.orange,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12.0),
+                      ),
+                    ),
+                    onPressed: () async {
+                      NotificationHelper.payload.value = "";
+                      Color randomColor =
+                          Color((math.Random().nextDouble() * 0xFFFFFF).toInt())
+                              .withOpacity(1.0);
+                      await NotificationHelper.flutterLocalNotificationsPlugin.show(
+                        math.Random().nextInt(99),
+                        "Menampilkan notifikasi",
+                        "Tombol Checkout berhasil ditekan!",
+                        NotificationHelper.notificationDetails(randomColor),
+                        payload: jsonEncode({"data": "test"}),
+                      );
+                    },
+                    child: const Text(
+                      'Checkout',
+                      style: TextStyle(fontSize: 18, color: Colors.black),
+                    ),
                   ),
                 ),
-                onPressed: () async {
-                  NotificationHelper.payload.value = "";
-                  Color randomColor =
-                      Color((math.Random().nextDouble() * 0xFFFFFF).toInt())
-                          .withOpacity(1.0);
-                  await NotificationHelper.flutterLocalNotificationsPlugin.show(
-                    math.Random().nextInt(99),
-                    "Menampilkan notifikasi",
-                    "Tombol Checkout berhasil ditekan!",
-                    NotificationHelper.notificationDetails(randomColor),
-                    payload: jsonEncode({"data": "test"}),
-                  );
-                },
-                child: const Text(
-                  'Checkout',
-                  style: TextStyle(fontSize: 18, color: Colors.black),
-                ),
-              ),
+              ],
             )
           ],
         ),

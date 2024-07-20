@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:miniproject_1/model/cart_model.dart';
 import 'package:miniproject_1/model/product_model.dart';
 
-import '../product_page/product_detail_page.dart';
+import 'cart_detail_page.dart';
+
 
 class ListViewWidget extends StatelessWidget {
   final List<ProductModel> data;
@@ -63,7 +64,7 @@ class ListViewWidget extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => ProductDetailPage(product: item),
+                    builder: (context) => CartDetailPage(product: item),
                   ),
                 );
               },
