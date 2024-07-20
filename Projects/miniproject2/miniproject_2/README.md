@@ -44,62 +44,72 @@ miniproject_1/
 ├── ios/
 ├── assets/
 │   ├── docs
-│         ├── 1,2,3,4,5,6,7,8,9,10.png // image for github docs
+│   |     ├── 1,2,3,4,5,6,7,8,9,10.png // image for github docs
 │   ├── images
 │         ├── sanberlogo.png
+│
 ├── lib/
 │   ├── bloc
-│         ├── cart_bloc
-│                 ├── cart_bloc.dart
-│                 ├── cart_event.dart
-│                 ├── cart_state.dart
-│         ├── notification
-│                 ├── notification_bloc.dart
-│                 ├── notification_event.dart
-│                 ├── notification_state.dart
-│         ├── product_bloc
-│                 ├── product_bloc.dart
-│                 ├── product_event.dart
-│                 ├── product_state.dart
-│         ├── searchproduct
-│                 ├── searchproduct_bloc.dart
-│                 ├── searchproduct_event.dart
-│                 ├── searchproduct_state.dart
-│         ├── user_bloc
-│                 ├── user_bloc.dart
-│                 ├── user_event.dart
-│                 ├── user_state.dart
+│   |     ├── cart_bloc
+│   |     |       ├── cart_bloc.dart
+│   |     |       ├── cart_event.dart
+│   |     |       ├── cart_state.dart
+│   |     ├── notification
+│   |     |       ├── notification_bloc.dart
+│   |     |       ├── notification_event.dart
+│   |     |       ├── notification_state.dart
+│   |     ├── product_bloc
+│   |     |       ├── product_bloc.dart
+│   |     |       ├── product_event.dart
+│   |     |       ├── product_state.dart
+│   |     |── searchproduct
+│   |     |       ├── searchproduct_bloc.dart
+│   |     |       ├── searchproduct_event.dart
+│   |     |       ├── searchproduct_state.dart
+│   |     ├── user_bloc
+│   |     |       ├── user_bloc.dart
+│   |     |       ├── user_event.dart
+│   |     |       ├── user_state.dart
+│   |     
 │   ├── const
-│         ├── const.dart
+│   |     ├── const.dart
+│   |     
 │   ├── helpers
-│         ├── notification_helper.dart
+│   |     ├── notification_helper.dart
+│   |     
 │   ├── model
-│         ├── cart_model.dart
-│         ├── product_model.dart
-│         ├── user_model.dart
+│   |     ├── cart_model.dart
+│   |     ├── product_model.dart
+│   |     ├── user_model.dart
+│   |     
 │   ├── pages
-│         ├── cart_page
-│                 ├── cart_screen.dart
-│                 ├── listview_cart.dart
-│         ├── login_page
-│                 ├── login_page.dart
-│         ├── home_page
-│                 ├── home_page.dart
-│         ├── product_page
-│                 ├── product_detail_page.dart
-│                 ├── product_page.dart
-│         ├── splash_page
-│                 ├── splash_page.dart
-│         ├── user_page
-│                 ├── user_page.dart
+│   |     ├── cart_page
+│   |     |       ├── cart_screen.dart
+│   |     |       ├── listview_cart.dart
+│   |     ├── login_page
+│   |     |       ├── login_page.dart
+│   |     ├── home_page
+│   |     |       ├── home_page.dart
+│   |     ├── product_page
+│   |     |       ├── product_detail_page.dart
+│   |     |       ├── product_page.dart
+│   |     ├── splash_page
+│   |     |       ├── splash_page.dart
+│   |     ├── user_page
+│   |             ├── user_page.dart
+│   |     
 │   ├── routes
-│         ├── routers.dart
-│         ├── routes_name.dart
+│   |     ├── routers.dart
+│   |     ├── routes_name.dart
+│   |     
 │   ├── server
-│         ├── app_socket_server.dart
+│   |     ├── app_socket_server.dart
+│   |     
 │   ├── services
-│         ├── api_services.dart
+│   |     ├── api_services.dart
+│   |     
 │   ├── main.dart
+│   |
 │   
 ├── test
 │   ├── api_service_test.dart
