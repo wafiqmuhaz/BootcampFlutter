@@ -85,6 +85,7 @@ miniproject_1/
 │   ├── pages
 │   |     ├── cart_page
 │   |     |       ├── cart_screen.dart
+│   |     |       ├── cart_detail_screen.dart
 │   |     |       ├── listview_cart.dart
 │   |     ├── login_page
 │   |     |       ├── login_page.dart
@@ -296,10 +297,10 @@ test('fetchProducts returns a list of ProductModel', () async {
 
 ## screenshot 2
 
-| detail produk | cart screen | profile screen | Unit testing | Testing result |
-| --------------- | --------------- | --------------- | --------------- | --------------- | 
-| ![detail produk](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/6.png)  | ![cart screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/7.png)   | ![profile screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/8.png)  | ![Unit testing](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/9.png)   | ![Testing result](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/10.png)  | 
-| --------------- | --------------- | --------------- | --------------- | 
+| detail produk | cart screen | profile screen | Unit testing | Testing result | Order Detail |
+| --------------- | --------------- | --------------- | --------------- | --------------- |  --------------- | 
+| ![detail produk](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/6.png)  | ![cart screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/7.png)   | ![profile screen](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/8.png)  | ![Unit testing](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/9.png)   | ![Testing result](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/10.png)  | ![Order Detail](https://github.com/wafiqmuhaz/BootcampFlutter/blob/main/Projects/miniproject2/miniproject_2/assets/docs/11.png)  | 
+| --------------- | --------------- | --------------- | --------------- |  --------------- | 
 
 ## System Architecture
 |    ![SystemArchitecture](https://bloclibrary.dev/_astro/bloc.DJLDGT9c_1KXLNj.svg)     | 
