@@ -66,7 +66,10 @@ BootCampFlutter/
 │         ├── Tugas-11
 │         ├── Tugas-12
 │         ├── Tugas-13
-│         ├── Tugas-14 ~ ONGOING
+│         ├── Tugas-14
+├── Projects/
+│         ├── miniproject1
+│         ├── miniproject2
 Readme.md
 ```
 
@@ -148,7 +151,23 @@ Unit testing lanjutan pada aplikasi
 - Tugas14(* Juli 2024*) =
 Ongoing
 
-##
+### Pada Folder Projects
+- miniproject1 = 
+  - design applikasi tema nya bisa seperti tokopedia, shopee dst
+  - api yang wajib ada yaitu:
+  - profile = https://fakestoreapi.com/users/- product = https://fakestoreapi.com/products dan - cart = https://fakestoreapi.com/carts
+  - ada beberapa file yang di assign yang pertama yaitu profile_screen.dart kedua yaitu authentikasi (product_screan.dart)  kemudian cart_screen.dart
+  - menggunakan bloc state managemen, menggunakan model data  dan services
+
+- miniproject2 =
+ tambahan halaman:
+   - Splash screen dengan tambahan animasi untuk masuk dari splash ke login screen
+   - Login screen dan untuk rule apabila di beri username = "nama_sendiri" dan password = "superbootcamp" maka akan dialihkan ke halaman beranda/product dan apabila salah maka akan di beri snackbar "Username dan password tidak sesuai"
+   - Dihalaman beranda/ product bisa ditambahkan local notifikasi apabila ada notifikasi maka bisa tampil
+   - Dihalaman beranda/ product tambahlah textfields yang bisa diberi input untuk filter data list product yang ada search by string
+   - Dan berikan unit test untuk menguji endpoint profile api yang ada pada halaman profile
+
+  
 
 
 ## System Architecture
