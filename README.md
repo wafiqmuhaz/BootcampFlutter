@@ -52,6 +52,8 @@ BootCampFlutter/
 │         ├── pengayaanapps21
 │         ├── pengayaanapps22
 │         ├── pengayaanapps23
+│         ├── pengayaanapps24
+│         ├── pengayaanapps25 - ongoing
 ├── TugasMingguan/
 │         ├── Tugas-1
 │         ├── Tugas-2
@@ -119,6 +121,8 @@ Mengimplementasikan Integrated Test pada aplikasi
 Mengimplementasikan Integrated Test level Advance pada aplikasi
 - pengayaanapps23 =
 Mengimplementasikan camera pada aplikasi dan juga menscan barcode dengan barcode yang telah disediakan
+- pengayaanapps24 =
+Mengimplementasikan Firebase Authentications pada aplikasi
 
 
 ### Pada Folder TugasMingguan
