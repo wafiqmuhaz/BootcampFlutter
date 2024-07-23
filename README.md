@@ -53,7 +53,12 @@ BootCampFlutter/
 │         ├── pengayaanapps22
 │         ├── pengayaanapps23
 │         ├── pengayaanapps24
-│         ├── pengayaanapps25 - ongoing
+│         ├── pengayaanapps25
+│         ├── pengayaanapps26 - ongoiong
+│         ├── pengayaanapps27 - ongoiong
+│         ├── pengayaanapps28 - ongoiong
+│         ├── pengayaanapps29 - ongoiong
+│         ├── pengayaanapps30 - ongoiong
 ├── TugasMingguan/
 │         ├── Tugas-1
 │         ├── Tugas-2
@@ -123,6 +128,19 @@ Mengimplementasikan Integrated Test level Advance pada aplikasi
 Mengimplementasikan camera pada aplikasi dan juga menscan barcode dengan barcode yang telah disediakan
 - pengayaanapps24 =
 Mengimplementasikan Firebase Authentications pada aplikasi
+- pengayaanapps25 =
+Mengimplementasikan Firebase firestore(database) pada aplikasi
+- pengayaanapps26 = - ongoing
+Mengimplementasikan Firebase Storage(Storage) pada aplikasi
+- pengayaanapps27 = - ongoing
+Mengimplementasikan Firebase Push Notification - Firebase cloud messaging  pada aplikasi
+- pengayaanapps28 = - ongoing
+Mengimplementasikan code generation
+- pengayaanapps29 = - ongoing
+Moodboarder dan userflow
+- pengayaanapps30 = - ongoing
+High Fidality dan Interaksi
+
 
 
 ### Pada Folder TugasMingguan
