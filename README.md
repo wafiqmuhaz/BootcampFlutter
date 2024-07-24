@@ -54,7 +54,7 @@ BootCampFlutter/
 │         ├── pengayaanapps23
 │         ├── pengayaanapps24
 │         ├── pengayaanapps25
-│         ├── pengayaanapps26 - ongoiong
+│         ├── pengayaanapps26
 │         ├── pengayaanapps27 - ongoiong
 │         ├── pengayaanapps28 - ongoiong
 │         ├── pengayaanapps29 - ongoiong
@@ -130,7 +130,7 @@ Mengimplementasikan camera pada aplikasi dan juga menscan barcode dengan barcode
 Mengimplementasikan Firebase Authentications pada aplikasi
 - pengayaanapps25 =
 Mengimplementasikan Firebase firestore(database) pada aplikasi
-- pengayaanapps26 = - ongoing
+- pengayaanapps26 = 
 Mengimplementasikan Firebase Storage(Storage) pada aplikasi
 - pengayaanapps27 = - ongoing
 Mengimplementasikan Firebase Push Notification - Firebase cloud messaging  pada aplikasi
@@ -169,7 +169,7 @@ Membuat 2 halaman dengan mengimplementasikan local notifikasi dan juga maps
 - Tugas12(*Rabu 17 Juli 2024*) =
 Membuat 2 Unit Testing, yaitu, Test widget untuk perpindahan halaman dan unit test untuk memastikan navigasi berjalan lancar
 - Tugas13(*Kamis 18 Juli 2024*) =
-Unit testing lanjutan pada aplikasi
+Unit testing lanjutan pada aplikasi sebelumnya, yaitu aplikasi pada tugas12
 - Tugas14(* Juli 2024*) =
 Ongoing
 
