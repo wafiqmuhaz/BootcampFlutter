@@ -55,7 +55,7 @@ BootCampFlutter/
 │         ├── pengayaanapps24
 │         ├── pengayaanapps25
 │         ├── pengayaanapps26
-│         ├── pengayaanapps27 - ongoiong
+│         ├── pengayaanapps27
 │         ├── pengayaanapps28 - ongoiong
 │         ├── pengayaanapps29 - ongoiong
 │         ├── pengayaanapps30 - ongoiong
@@ -132,7 +132,7 @@ Mengimplementasikan Firebase Authentications pada aplikasi
 Mengimplementasikan Firebase firestore(database) pada aplikasi
 - pengayaanapps26 = 
 Mengimplementasikan Firebase Storage(Storage) pada aplikasi
-- pengayaanapps27 = - ongoing
+- pengayaanapps27 = 
 Mengimplementasikan Firebase Push Notification - Firebase cloud messaging  pada aplikasi
 - pengayaanapps28 = - ongoing
 Mengimplementasikan code generation
