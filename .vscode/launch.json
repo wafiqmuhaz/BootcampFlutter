@@ -15,6 +15,9 @@
             "request": "launch",
             "type": "dart",
             "program": "TypeData/type.dart"
+        },
+        {
+            "php.executablePath": "C:/php/php.exe"
         }
     ]
 }
