@@ -1,20 +1,36 @@
-import 'dart:convert';
-import 'dart:developer';
-
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'bloc/auth/authentication_bloc.dart';
-import 'bloc/images/images_cubit.dart';
+
+import 'data/services/fcm_helper.dart';
+import 'data/services/notification_helper.dart';
+import 'presentation/blocs/admin_home/admin_home_bloc.dart';
+import 'presentation/blocs/cart/cart_bloc.dart';
+import 'presentation/blocs/images/images_cubit.dart';
+import 'presentation/blocs/network/network_bloc.dart';
+import 'presentation/blocs/purchase/purchase_bloc.dart';
+import 'presentation/blocs/stripe/stripe_bloc.dart';
+// import 'package:flutter_stripe/flutter_stripe.dart';
+
+import 'config/routes/router.dart';
+import 'core/constants/colors.dart';
+import 'core/constants/keys.dart';
 import 'firebase_options.dart';
-import 'screens/auth_flow.dart';
-import 'screens/home.dart';
-import 'screens/sign_In.dart';
-import 'screens/sign_up.dart';
-import 'services/fcm_helper.dart';
-import 'services/notification_helper.dart';
+import 'presentation/blocs/product_details/product_details_bloc.dart';
+import 'presentation/blocs/admin_tools/add_category/add_category_bloc.dart';
+import 'presentation/blocs/admin_tools/add_product/add_product_bloc.dart';
+import 'presentation/blocs/admin_tools/category/category_bloc.dart';
+import 'presentation/blocs/admin_tools/product/product_bloc.dart';
+import 'presentation/blocs/admin_tools/users/users_bloc.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'core/services/service_locator.dart' as locator;
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'presentation/blocs/auth/auth_bloc.dart';
+import 'presentation/blocs/forgot_password/forgot_password_bloc.dart';
+import 'presentation/blocs/sign_in/sign_in_bloc.dart';
+import 'presentation/blocs/sign_up/sign_up_bloc.dart';
+import 'presentation/blocs/user_home/user_home_bloc.dart';
 
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
@@ -22,10 +38,14 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 }
 
 void main() async {
+  // initialize Flutter Binding
   WidgetsFlutterBinding.ensureInitialized();
+  // initialize firebase
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  // initialize dependency injection
+  await locator.serviceLocator();
 
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
@@ -41,19 +61,12 @@ void main() async {
       return;
     }
   }
-  runApp(
-    MultiBlocProvider(
-      providers: [
-        BlocProvider<AuthenticationBloc>(
-          create: (BuildContext context) => AuthenticationBloc(),
-        ),
-        BlocProvider<ImagesCubit>(
-          create: (BuildContext context) => ImagesCubit(),
-        ),
-      ],
-      child: MyApp(),
-    ),
-  );
+
+  // initialize stripe publishable key
+  // Stripe.publishableKey = AppKeys.STRIPE_TEST_PUBLISHABLE_KEY;
+  // await Stripe.instance.applySettings();
+
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -61,19 +74,83 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Auth and Firestore App',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider<SignUpBloc>(
+          create: (context) => locator.sl<SignUpBloc>(),
+        ),
+        BlocProvider<SignInBloc>(
+          create: (context) => locator.sl<SignInBloc>(),
+        ),
+        BlocProvider<AuthBloc>(
+          create: (context) => locator.sl<AuthBloc>(),
+        ),
+        BlocProvider<ForgotPasswordBloc>(
+          create: (context) => locator.sl<ForgotPasswordBloc>(),
+        ),
+        BlocProvider<AdminHomeBloc>(
+          create: (context) => locator.sl<AdminHomeBloc>(),
+        ),
+        BlocProvider<AddCategoryBloc>(
+          create: (context) => locator.sl<AddCategoryBloc>(),
+        ),
+        BlocProvider<CategoryBloc>(
+          create: (context) =>
+              locator.sl<CategoryBloc>()..add(GetAllCategoriesEvent()),
+        ),
+        BlocProvider<AddProductBloc>(
+          create: (context) => locator.sl<AddProductBloc>(),
+        ),
+        BlocProvider<ProductBloc>(
+          create: (context) =>
+              locator.sl<ProductBloc>()..add(GetAllProductsEvent()),
+        ),
+        BlocProvider<UsersBloc>(
+          create: (context) => locator.sl<UsersBloc>()..add(GetAllUsersEvent()),
+        ),
+        BlocProvider<UserHomeBloc>(
+          create: (context) => locator.sl<UserHomeBloc>(),
+        ),
+        BlocProvider<ProductDetailsBloc>(
+          create: (context) => locator.sl<ProductDetailsBloc>(),
+        ),
+        BlocProvider<CartBloc>(
+          create: (context) => locator.sl<CartBloc>(),
+        ),
+        BlocProvider<StripeBloc>(
+          create: (context) => locator.sl<StripeBloc>(),
+        ),
+        BlocProvider<PurchaseBloc>(
+          create: (context) => locator.sl<PurchaseBloc>(),
+        ),
+        BlocProvider<NetworkBloc>(
+          create: (context) => locator.sl<NetworkBloc>(),
+        ),
+        BlocProvider<ImagesCubit>(
+          create: (BuildContext context) => ImagesCubit(),
+        ),
+      ],
+      child: MaterialApp.router(
+        title: 'SanberShop',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          brightness: Brightness.light,
+          scaffoldBackgroundColor: AppColors.primary,
+          appBarTheme: const AppBarTheme(
+            backgroundColor: AppColors.primary,
+          ),
+          bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+            backgroundColor: AppColors.primary,
+          ),
+          textSelectionTheme: const TextSelectionThemeData(
+            cursorColor: AppColors.secondary,
+            selectionHandleColor: AppColors.secondary,
+          ),
+          useMaterial3: true,
+          fontFamily: 'Poppins',
+        ),
+        routerConfig: goRouter,
       ),
-      home: const AuthenticationFlowScreen(),
-      routes: {
-        SignupScreen.id: (context) => const SignupScreen(),
-        LoginScreen.id: (context) => const LoginScreen(),
-        HomeScreen.id: (context) => const HomeScreen(),
-      },
     );
   }
 }
