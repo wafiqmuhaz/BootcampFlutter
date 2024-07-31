@@ -80,6 +80,8 @@ BootCampFlutter/
 ├── Projects/
 │         ├── miniproject1
 │         ├── miniproject2
+│         ├── miniproject3
+│         ├── finalproject - ongoing
 Readme.md
 ```
 
@@ -198,6 +200,14 @@ Ongoing
    - Dihalaman beranda/ product bisa ditambahkan local notifikasi apabila ada notifikasi maka bisa tampil
    - Dihalaman beranda/ product tambahlah textfields yang bisa diberi input untuk filter data list product yang ada search by string
    - Dan berikan unit test untuk menguji endpoint profile api yang ada pada halaman profile
+
+- miniproject3 =
+ dengan fitur:
+  - authentikasi dengan firebase (Login, register dan auto login)
+  - dihalaman beranda data product dan detail product dari firebase firestore
+  - dihalaman order data product dari firebase firestore
+  - halaman profile menambahkan foto profile yang telah diupload dan diambil dari firebase storage
+  - halaman beranda menambahkan firebase push notif dan local notif yang di combine 
 
   
 
