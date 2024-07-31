@@ -56,9 +56,12 @@ BootCampFlutter/
 │         ├── pengayaanapps25
 │         ├── pengayaanapps26
 │         ├── pengayaanapps27
-│         ├── pengayaanapps28 - ongoiong
-│         ├── pengayaanapps29 - ongoiong
-│         ├── pengayaanapps30 - ongoiong
+│         ├── pengayaanapps28 
+│         ├── pengayaanapps29 
+│         ├── pengayaanapps31 
+│         ├── pengayaanapps32 - ongoiong
+│         ├── pengayaanapps33 - ongoiong
+│         ├── pengayaanapps34 - ongoiong
 ├── TugasMingguan/
 │         ├── Tugas-1
 │         ├── Tugas-2
@@ -138,9 +141,16 @@ Mengimplementasikan Firebase Push Notification - Firebase cloud messaging  pada 
 Mengimplementasikan code generation
 - pengayaanapps29 = - ongoing
 Moodboarder dan userflow
-- pengayaanapps30 = - ongoing
+- pengayaanapps30 = 
 High Fidality dan Interaksi
-
+- pengayaanapps31 =
+Dasar PHP for Backend 
+- pengayaanapps32 = - ongoing
+Installing Laravel For Backed
+- pengayaanapps33 = - ongoing
+Orm Laravel
+- pengayaanapps34 = - ongoing
+Final Project
 
 
 ### Pada Folder TugasMingguan
