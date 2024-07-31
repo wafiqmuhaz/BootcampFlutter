@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "640375050621",
+    "firebase_url": "https://sanberpengayaan-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sanberpengayaan",
+    "storage_bucket": "sanberpengayaan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640375050621:android:c108e9aa3632ff460efc14",
+        "android_client_info": {
+          "package_name": "com.sanberpengayaan.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640375050621-05n4gvqjs38sklqj5a1md598v8luvuvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanberpengayaan.app",
+            "certificate_hash": "3ecb56cff8191043ae4ce3ea148d1a77ba4f9084"
+          }
+        },
+        {
+          "client_id": "640375050621-2qsjg8csvhscd521etadeom5gmqqo7bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsaX0xB8lYqwLkSwcVGw-asLoERcn0prg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640375050621-2qsjg8csvhscd521etadeom5gmqqo7bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
