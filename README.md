@@ -60,7 +60,7 @@ BootCampFlutter/
 │         ├── pengayaanapps29 
 │         ├── pengayaanapps31 
 │         ├── pengayaanserver32
-│         ├── pengayaanserver33 - ongoiong
+│         ├── pengayaanserver33
 │         ├── pengayaanserver34 - ongoiong
 ├── TugasMingguan/
 │         ├── Tugas-1
@@ -147,11 +147,11 @@ Moodboarder dan userflow
 High Fidality dan Interaksi
 - pengayaanapps31 =
 Dasar PHP for Backend 
-- pengayaanapps32 = - ongoing
+- pengayaanserver32 = 
 Installing Laravel For Backed
-- pengayaanapps33 = - ongoing
+- pengayaanserver33 =
 Orm Laravel
-- pengayaanapps34 = - ongoing
+- pengayaanserver34 = - ongoing
 Final Project
 
 
