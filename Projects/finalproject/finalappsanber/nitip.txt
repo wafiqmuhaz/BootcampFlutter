@@ -1,0 +1,17 @@
+// Reset Payload Value
+                            NotificationHelper.payload.value = "";
+                            Color randomColor = Color(
+                                    (math.Random().nextDouble() * 0xFFFFFF)
+                                        .toInt())
+                                .withOpacity(1.0);
+                            // Kirim Notifikasi
+                            await NotificationHelper
+                                .flutterLocalNotificationsPlugin
+                                .show(
+                              math.Random().nextInt(99),
+                              "Menampilkan notifikasi",
+                              "Menuju ke detail item berhasil",
+                              NotificationHelper.notificationDetails(
+                                  randomColor),
+                              payload: jsonEncode({"data": "test"}),
+                            );
